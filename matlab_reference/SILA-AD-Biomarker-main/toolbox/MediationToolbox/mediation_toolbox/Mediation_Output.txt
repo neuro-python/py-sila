@@ -1,0 +1,176 @@
+Mediation analysis
+
+Observations: 257, Replications:   1
+Predictor (X): Remote Interaction, Outcome (Y): Cognitive Decline (CDR-SOB): Mediator (M): Global Tau Spreading
+
+Covariates: Yes,   3 columns
+
+Single-level analysis.
+Options:
+	Plots: Yes
+	Bootstrap: No
+	Robust: No
+	Logistic(Y): No
+{Unrecognized function or variable 'nanremove'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mediation', 'C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox\mediation.m', 276)" style="font-weight:bold">mediation</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox\mediation.m',276,0)">line 276</a>)
+        [nanvec, x, y, m, mediation_covariates] = nanremove(x, y, m, mediation_covariates);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 449)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',449,0)">line 449</a>)
+[~,global_remote_CDR] = mediation(R_bl, cdrsob_delta, dWdt, 'covs', covariates, 'verbose', 'plots', 'dosave', ...
+} 
+lme_interaction_cognition
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 105)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',105,0)">line 105</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 106)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',106,0)">line 106</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 107)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',107,0)">line 107</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 108)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',108,0)">line 108</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 128)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',128,0)">line 128</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 129)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',129,0)">line 129</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 130)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',130,0)">line 130</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 131)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',131,0)">line 131</a>)
+] 
+{'mediation' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox
+
+<a href = "matlab:internal.matlab.desktop.commandwindow.executeCommandForUser('cd ''C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox''')">Change the MATLAB current folder</a> or <a href = "matlab:internal.matlab.desktop.commandwindow.executeCommandForUser('addpath ''C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox''')">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 449)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',449,0)">line 449</a>)
+[~,global_remote_CDR] = mediation(R_bl, cdrsob_delta, dWdt, 'covs', covariates, 'verbose', 'plots', 'dosave', ...
+} 
+internal.matlab.desktop.commandwindow.executeCommandForUser('addpath ''C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox''')
+addpath 'C:\Users\neuro\OneDrive\문서\MATLAB\MediationToolbox\mediation_toolbox'
+lme_interaction_cognition
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 106)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',106,0)">line 106</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 107)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',107,0)">line 107</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 108)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',108,0)">line 108</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 109)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',109,0)">line 109</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 129)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',129,0)">line 129</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 130)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',130,0)">line 130</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 131)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',131,0)">line 131</a>)
+] 
+[Warning: Input should be a string, character array, or cell array of character arrays.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gscatter', 'C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m', 158)" style="font-weight:bold">gscatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\stats\stats\gscatter.m',158,0)">line 158</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lme_interaction_cognition', 'C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m', 132)" style="font-weight:bold">lme_interaction_cognition</a> (<a href="matlab: opentoline('C:\Users\neuro\OneDrive\문서\glim0421\Scripts\lme_interaction_cognition.m',132,0)">line 132</a>)
+] 
+Saving output in file Mediation_Output.txt
+Mediation analysis
+
+Observations: 257, Replications:   1
+Predictor (X): Therapeutic Group, Outcome (Y): Cognitive Decline (CDR-SOB): Mediator (M): Global Tau Spreading
+
+Covariates: Yes,   3 columns
+
+Single-level analysis.
+Options:
+	Plots: Yes
+	Bootstrap: No
+	Robust: No
+	Logistic(Y): No
+ Done.
+Mediation scatterplots:
+Replications:   1
+Covariates controlled for in all regressions:   3 predictors
+Additional mediators controlled for in outcome predictions:   1 predictors
+
+________________________________________
+
+Single-level model
+	a	b	c'	c	ab	
+Coeff	0.04	0.26	-0.07	-0.06	0.01	
+STE	0.05	0.09	0.06	0.07	0.01	
+t (~N)	0.80	2.95	-1.04	-0.87	0.73	
+Z	0.80	2.92	-1.03	-0.87	0.73	
+p	0.4257	0.0035	0.3014	0.3830	0.4649	
+
+________________________________________
+Total time:   1 s
+Saving: Path_Diagram.fig
+Saving: Path_Diagram.png
+Cannot find figure with tag Slope_Plot to save.  Maybe figure was not created, or it was closed?
+Cannot find figure with tag Histogram_Plot to save.  Maybe figure was not created, or it was closed?
+Cannot find figure with tag HRF_Plot to save.  Maybe figure was not created, or it was closed?
+Saving: Mediation_Scatterplots.fig
+Saving: Mediation_Scatterplots.png
+Cannot find figure with tag Individual Effects to save.  Maybe figure was not created, or it was closed?
+Mediation analysis
+
+Observations: 257, Replications:   1
+Predictor (X): Therapeutic Group, Outcome (Y): Cognitive Decline (CDR-SOB): Mediator (M): Global Tau Spreading
+
+Covariates: No
+
+Single-level analysis.
+Options:
+	Plots: Yes
+	Bootstrap: No
+	Robust: No
+	Logistic(Y): No
+ Done.
+Mediation scatterplots:
+Replications:   1
+Covariates controlled for in all regressions:   0 predictors
+Additional mediators controlled for in outcome predictions:   1 predictors
+
+________________________________________
+
+Single-level model
+	a	b	c'	c	ab	
+Coeff	-0.02	0.27	-0.09	-0.10	-0.00	
+STE	0.04	0.09	0.06	0.06	0.01	
+t (~N)	-0.38	3.11	-1.64	-1.69	-0.36	
+Z	-0.38	3.07	-1.64	-1.68	-0.36	
+p	0.7048	0.0021	0.1013	0.0922	0.7201	
+
+________________________________________
+Total time:   1 s
+Saving: Path_Diagram.fig
+Saving: Path_Diagram.png
+Cannot find figure with tag Slope_Plot to save.  Maybe figure was not created, or it was closed?
+Cannot find figure with tag Histogram_Plot to save.  Maybe figure was not created, or it was closed?
+Cannot find figure with tag HRF_Plot to save.  Maybe figure was not created, or it was closed?
+Saving: Mediation_Scatterplots.fig
+Saving: Mediation_Scatterplots.png
+Cannot find figure with tag Individual Effects to save.  Maybe figure was not created, or it was closed?
