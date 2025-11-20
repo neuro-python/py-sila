@@ -19,6 +19,7 @@ Betthauser, T.J., et al. (2022). Multi-method investigation of factors influenci
 - ✅ **Standalone** - no MATLAB required
 - ✅ **Well-documented** with examples
 - ✅ **Fully tested** (28 tests, 100% passing)
+- ✅ **Scikit-learn compatible** `SILATransformer` for pipelines
 
 ## 🚀 Quick Start
 
@@ -32,7 +33,7 @@ pip install py-sila
 
 ```python
 import pandas as pd
-from sila import sila, sila_estimate
+from sila import sila, sila_estimate, SILATransformer
 
 # Load your longitudinal data
 data = pd.read_csv('your_data.csv')
@@ -58,6 +59,12 @@ estimates = sila_estimate(
 # Results
 print(f"Modeled curve: {len(tsila)} time points")
 print(f"Positive cases: {estimates['estpos'].sum()}/{len(estimates)}")
+
+# Optional: scikit-learn style pipeline
+transformer = SILATransformer()
+transformer.fit(data, age="age", value="biomarker", subid="subject_id")
+estdtt0 = transformer.transform(data)
+print(f"Estimated time-to-threshold array shape: {estdtt0.shape}")
 ```
 
 ## 📊 Validation
